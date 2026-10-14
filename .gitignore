@@ -1,0 +1,11 @@
+.DS_Store
+work/*
+!work/puzzles.tsv
+!work/snip-concept.html
+!work/store-review.html
+deliverables/*.zip
+*.xcresult
+*.xcuserstate
+**/xcuserdata/
+__pycache__/
+*.pyc

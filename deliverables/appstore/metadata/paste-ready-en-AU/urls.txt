@@ -1,0 +1,3 @@
+supportURL: https://snip.hrln-interactive.com/support/
+marketingURL: https://snip.hrln-interactive.com/
+privacyPolicyURL: https://snip.hrln-interactive.com/privacy/

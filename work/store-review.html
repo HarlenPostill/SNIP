@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SNIP asset review</title>
+<style>
+html,body{margin:0;background:transparent;color:var(--foreground);font-family:var(--font-sans,system-ui,sans-serif)}*{box-sizing:border-box}#snip-assets .controls{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px;padding-right:90px}#snip-assets button{font:inherit;color:var(--foreground);background:transparent;border:1px solid var(--border);border-radius:8px;padding:8px 12px;min-height:42px}#snip-assets button[aria-pressed=true]{background:var(--primary);color:var(--primary-foreground);border-color:var(--primary)}#snip-assets button:focus-visible{outline:2px solid var(--ring);outline-offset:3px}#snip-assets img{display:block;width:100%;height:auto;border-radius:var(--radius,12px)}#snip-assets .label{font-size:12px;color:var(--muted-foreground);margin:12px 0 0;line-height:1.6}@media(max-width:420px){#snip-assets .controls{padding-right:0}}
+</style></head>
+<body><div id="snip-assets">
+<div class="controls" role="group" aria-label="View SNIP campaign assets">
+<button type="button" data-image="campaign" aria-pressed="true">The campaign</button>
+<button type="button" data-image="connected" aria-pressed="false">First two together</button>
+<button type="button" data-image="header" aria-pressed="false">Header</button>
+<button type="button" data-image="search" aria-pressed="false">Search</button>
+</div>
+<img id="snip-asset-image" src="/Users/harlenpostill/Documents/Github/sol-word-test/appstore/contact-sheet-1206x2622.jpg" alt="Six coordinated SNIP App Store screenshots: the first two share one iPhone, followed by the game, a receipt, practice, and offline play.">
+<div class="label" id="snip-asset-label" aria-live="polite">Six screenshots · exported at 1206 × 2622 and 1179 × 2556 · genuine native app captures</div>
+</div>
+<script>
+(()=>{const root=document.getElementById('snip-assets');const image=root.querySelector('#snip-asset-image'),label=root.querySelector('#snip-asset-label');const assets={campaign:{src:'/Users/harlenpostill/Documents/Github/sol-word-test/appstore/contact-sheet-1206x2622.jpg',alt:'Six coordinated SNIP App Store screenshots',label:'Six screenshots · exported at 1206 × 2622 and 1179 × 2556 · genuine native app captures'},connected:{src:'/Users/harlenpostill/Documents/Github/sol-word-test/appstore/first-two-connected.jpg',alt:'The first two screenshots joined at their shared iPhone seam',label:'First two screenshots · keep this order together'},header:{src:'/Users/harlenpostill/Documents/Github/sol-word-test/appstore/creative/header-3840x1646.png',alt:'SNIP header in cream and vermilion with a native game screen and cut-out RAT paper piece',label:'Header · 3840 × 1646 · universal 5244 × 2950 also included'},search:{src:'/Users/harlenpostill/Documents/Github/sol-word-test/appstore/creative/search-1920x1280.png',alt:'SNIP search artwork showing its word-cutting mechanic',label:'Search · 1920 × 1280 and 3840 × 2560 · universal 5244 × 2950 also included'}};root.querySelectorAll('button').forEach(button=>button.addEventListener('click',()=>{const asset=assets[button.dataset.image];image.src=asset.src;image.alt=asset.alt;label.textContent=asset.label;root.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));}));})();
+</script></body></html>

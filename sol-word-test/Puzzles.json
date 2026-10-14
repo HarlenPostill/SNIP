@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "basket",
+    "source": "BASKET",
+    "cut": "ASK",
+    "keep": "BET",
+    "cutClue": "Pose a question",
+    "keepClue": "A wager",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "wallet",
+    "source": "WALLET",
+    "cut": "ALL",
+    "keep": "WET",
+    "cutClue": "Every last one",
+    "keepClue": "Not dry",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "magnetic",
+    "source": "MAGNETIC",
+    "cut": "NET",
+    "keep": "MAGIC",
+    "cutClue": "A mesh for catching",
+    "keepClue": "A magician's craft",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "renewal",
+    "source": "RENEWAL",
+    "cut": "NEW",
+    "keep": "REAL",
+    "cutClue": "Fresh from the box",
+    "keepClue": "Not imaginary",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "practice",
+    "source": "PRACTICE",
+    "cut": "ACT",
+    "keep": "PRICE",
+    "cutClue": "Perform on stage",
+    "keepClue": "What it costs",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "shallow",
+    "source": "SHALLOW",
+    "cut": "ALL",
+    "keep": "SHOW",
+    "cutClue": "The whole lot",
+    "keepClue": "A theatre performance",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "compute",
+    "source": "COMPUTE",
+    "cut": "PUT",
+    "keep": "COME",
+    "cutClue": "Place somewhere",
+    "keepClue": "Arrive here",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "trendy",
+    "source": "TRENDY",
+    "cut": "END",
+    "keep": "TRY",
+    "cutClue": "The finish",
+    "keepClue": "Make an attempt",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "beloved",
+    "source": "BELOVED",
+    "cut": "LOVE",
+    "keep": "BED",
+    "cutClue": "Deep affection",
+    "keepClue": "Where you sleep",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "cherry",
+    "source": "CHERRY",
+    "cut": "HER",
+    "keep": "CRY",
+    "cutClue": "Belonging to a woman",
+    "keepClue": "Shed a tear",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "fairly",
+    "source": "FAIRLY",
+    "cut": "AIR",
+    "keep": "FLY",
+    "cutClue": "What you breathe",
+    "keepClue": "Take to the sky",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "knowing",
+    "source": "KNOWING",
+    "cut": "NOW",
+    "keep": "KING",
+    "cutClue": "This very moment",
+    "keepClue": "A crowned ruler",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "ballad",
+    "source": "BALLAD",
+    "cut": "ALL",
+    "keep": "BAD",
+    "cutClue": "Nothing left out",
+    "keepClue": "The opposite of good",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "tallest",
+    "source": "TALLEST",
+    "cut": "ALL",
+    "keep": "TEST",
+    "cutClue": "Everyone together",
+    "keepClue": "An exam",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "maiden",
+    "source": "MAIDEN",
+    "cut": "AID",
+    "keep": "MEN",
+    "cutClue": "Help in a crisis",
+    "keepClue": "Adult males",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "bushes",
+    "source": "BUSHES",
+    "cut": "SHE",
+    "keep": "BUS",
+    "cutClue": "A female pronoun",
+    "keepClue": "Public road transport",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "belonging",
+    "source": "BELONGING",
+    "cut": "LONG",
+    "keep": "BEING",
+    "cutClue": "Far from short",
+    "keepClue": "A living creature",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "reaching",
+    "source": "REACHING",
+    "cut": "EACH",
+    "keep": "RING",
+    "cutClue": "Every one separately",
+    "keepClue": "A band for your finger",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "compete",
+    "source": "COMPETE",
+    "cut": "PET",
+    "keep": "COME",
+    "cutClue": "A companion animal",
+    "keepClue": "Move towards me",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "density",
+    "source": "DENSITY",
+    "cut": "SIT",
+    "keep": "DENY",
+    "cutClue": "Take a seat",
+    "keepClue": "Say it isn't true",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "operation",
+    "source": "OPERATION",
+    "cut": "RATIO",
+    "keep": "OPEN",
+    "cutClue": "A numerical proportion",
+    "keepClue": "Not closed",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "thinking",
+    "source": "THINKING",
+    "cut": "INK",
+    "keep": "THING",
+    "cutClue": "A pen's supply",
+    "keepClue": "An unnamed object",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "frankly",
+    "source": "FRANKLY",
+    "cut": "RANK",
+    "keep": "FLY",
+    "cutClue": "A position in order",
+    "keepClue": "Travel on wings",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "swelling",
+    "source": "SWELLING",
+    "cut": "WELL",
+    "keep": "SING",
+    "cutClue": "A source of water",
+    "keepClue": "Make music with your voice",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "blocked",
+    "source": "BLOCKED",
+    "cut": "LOCK",
+    "keep": "BED",
+    "cutClue": "Keep a door secure",
+    "keepClue": "A place to dream",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "warming",
+    "source": "WARMING",
+    "cut": "ARM",
+    "keep": "WING",
+    "cutClue": "From shoulder to wrist",
+    "keepClue": "A bird's flight surface",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "bathing",
+    "source": "BATHING",
+    "cut": "THIN",
+    "keep": "BAG",
+    "cutClue": "Not thick",
+    "keepClue": "A carryall",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "wearing",
+    "source": "WEARING",
+    "cut": "EAR",
+    "keep": "WING",
+    "cutClue": "An organ for hearing",
+    "keepClue": "Part of a bird",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "willow",
+    "source": "WILLOW",
+    "cut": "ILL",
+    "keep": "WOW",
+    "cutClue": "Feeling unwell",
+    "keepClue": "An expression of amazement",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "museum",
+    "source": "MUSEUM",
+    "cut": "USE",
+    "keep": "MUM",
+    "cutClue": "Put to work",
+    "keepClue": "Mother, informally",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "begged",
+    "source": "BEGGED",
+    "cut": "EGG",
+    "keep": "BED",
+    "cutClue": "Breakfast in a shell",
+    "keepClue": "A place for sleep",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "brushed",
+    "source": "BRUSHED",
+    "cut": "RUSH",
+    "keep": "BED",
+    "cutClue": "Hurry along",
+    "keepClue": "A mattress's home",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "coverage",
+    "source": "COVERAGE",
+    "cut": "OVER",
+    "keep": "CAGE",
+    "cutClue": "Above and across",
+    "keepClue": "An animal's enclosure",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "shortage",
+    "source": "SHORTAGE",
+    "cut": "TAG",
+    "keep": "SHORE",
+    "cutClue": "A label on a gift",
+    "keepClue": "Where land meets water",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "enjoyable",
+    "source": "ENJOYABLE",
+    "cut": "JOY",
+    "keep": "ENABLE",
+    "cutClue": "Great happiness",
+    "keepClue": "Make possible",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "honestly",
+    "source": "HONESTLY",
+    "cut": "NEST",
+    "keep": "HOLY",
+    "cutClue": "A bird's home",
+    "keepClue": "Sacred",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "combine",
+    "source": "COMBINE",
+    "cut": "BIN",
+    "keep": "COME",
+    "cutClue": "A rubbish container",
+    "keepClue": "Head this way",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "credited",
+    "source": "CREDITED",
+    "cut": "RED",
+    "keep": "CITED",
+    "cutClue": "The colour of a tomato",
+    "keepClue": "Mentioned as a source",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "canyon",
+    "source": "CANYON",
+    "cut": "ANY",
+    "keep": "CON",
+    "cutClue": "Whichever one",
+    "keepClue": "Trick someone",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "earrings",
+    "source": "EARRINGS",
+    "cut": "RING",
+    "keep": "EARS",
+    "cutClue": "A circular band",
+    "keepClue": "They hear in stereo",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "designer",
+    "source": "DESIGNER",
+    "cut": "SIGN",
+    "keep": "DEER",
+    "cutClue": "A roadside notice",
+    "keepClue": "An animal with antlers",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "passwords",
+    "source": "PASSWORDS",
+    "cut": "SWORD",
+    "keep": "PASS",
+    "cutClue": "A blade with a hilt",
+    "keepClue": "Go past",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "washing",
+    "source": "WASHING",
+    "cut": "ASH",
+    "keep": "WING",
+    "cutClue": "What's left after burning",
+    "keepClue": "A feathered limb",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "boredom",
+    "source": "BOREDOM",
+    "cut": "RED",
+    "keep": "BOOM",
+    "cutClue": "A ruby's colour",
+    "keepClue": "A loud, deep sound",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "borrowed",
+    "source": "BORROWED",
+    "cut": "ROW",
+    "keep": "BORED",
+    "cutClue": "Propel a boat with oars",
+    "keepClue": "Needing something to do",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "surgeon",
+    "source": "SURGEON",
+    "cut": "URGE",
+    "keep": "SON",
+    "cutClue": "A strong impulse",
+    "keepClue": "A male child",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "nearest",
+    "source": "NEAREST",
+    "cut": "EAR",
+    "keep": "NEST",
+    "cutClue": "A listener's asset",
+    "keepClue": "A home made of twigs",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "orbital",
+    "source": "ORBITAL",
+    "cut": "BIT",
+    "keep": "ORAL",
+    "cutClue": "A small piece",
+    "keepClue": "Spoken rather than written",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "parody",
+    "source": "PARODY",
+    "cut": "ROD",
+    "keep": "PAY",
+    "cutClue": "A fishing pole",
+    "keepClue": "Settle the bill",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "skinny",
+    "source": "SKINNY",
+    "cut": "INN",
+    "keep": "SKY",
+    "cutClue": "A small hotel",
+    "keepClue": "Above the clouds",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "diminish",
+    "source": "DIMINISH",
+    "cut": "MINI",
+    "keep": "DISH",
+    "cutClue": "A smaller version",
+    "keepClue": "A plate for food",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "mustard",
+    "source": "MUSTARD",
+    "cut": "STAR",
+    "keep": "MUD",
+    "cutClue": "A light in the night sky",
+    "keepClue": "Wet earth",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "complexity",
+    "source": "COMPLEXITY",
+    "cut": "EXIT",
+    "keep": "COMPLY",
+    "cutClue": "The way out",
+    "keepClue": "Follow the rules",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "theorem",
+    "source": "THEOREM",
+    "cut": "ORE",
+    "keep": "THEM",
+    "cutClue": "Rock containing metal",
+    "keepClue": "Those people",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "searched",
+    "source": "SEARCHED",
+    "cut": "ARCH",
+    "keep": "SEED",
+    "cutClue": "A curved doorway",
+    "keepClue": "The start of a plant",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "soaking",
+    "source": "SOAKING",
+    "cut": "OAK",
+    "keep": "SING",
+    "cutClue": "An acorn's future",
+    "keepClue": "Carry a tune",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "risking",
+    "source": "RISKING",
+    "cut": "SKI",
+    "keep": "RING",
+    "cutClue": "Glide down a snowy slope",
+    "keepClue": "A circular piece of jewellery",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "messages",
+    "source": "MESSAGES",
+    "cut": "SAGE",
+    "keep": "MESS",
+    "cutClue": "An aromatic kitchen herb",
+    "keepClue": "A jumble to tidy",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "noticeable",
+    "source": "NOTICEABLE",
+    "cut": "ICE",
+    "keep": "NOTABLE",
+    "cutClue": "Water, frozen",
+    "keepClue": "Worth paying attention to",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "suspended",
+    "source": "SUSPENDED",
+    "cut": "SPEND",
+    "keep": "SUED",
+    "cutClue": "Use up money",
+    "keepClue": "Taken to court",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "cleanup",
+    "source": "CLEANUP",
+    "cut": "LEAN",
+    "keep": "CUP",
+    "cutClue": "Tilt to one side",
+    "keepClue": "A vessel for tea",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "postage",
+    "source": "POSTAGE",
+    "cut": "TAG",
+    "keep": "POSE",
+    "cutClue": "A game of chase",
+    "keepClue": "Hold still for a photo",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "poorest",
+    "source": "POOREST",
+    "cut": "ORE",
+    "keep": "POST",
+    "cutClue": "A miner's find",
+    "keepClue": "Mail a letter",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "piping",
+    "source": "PIPING",
+    "cut": "PIN",
+    "keep": "PIG",
+    "cutClue": "A sharp sewing fastener",
+    "keepClue": "A farm animal that oinks",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "blackout",
+    "source": "BLACKOUT",
+    "cut": "LACK",
+    "keep": "BOUT",
+    "cutClue": "Be without something",
+    "keepClue": "A round of competition",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "meantime",
+    "source": "MEANTIME",
+    "cut": "ANTI",
+    "keep": "MEME",
+    "cutClue": "Opposed to",
+    "keepClue": "An internet in-joke",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "biting",
+    "source": "BITING",
+    "cut": "TIN",
+    "keep": "BIG",
+    "cutClue": "Metal used for cans",
+    "keepClue": "Far from small",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "profitable",
+    "source": "PROFITABLE",
+    "cut": "TAB",
+    "keep": "PROFILE",
+    "cutClue": "A browser's page holder",
+    "keepClue": "A side view of a face",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "varieties",
+    "source": "VARIETIES",
+    "cut": "TIE",
+    "keep": "VARIES",
+    "cutClue": "A neck accessory",
+    "keepClue": "Changes from case to case",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "copied",
+    "source": "COPIED",
+    "cut": "PIE",
+    "keep": "COD",
+    "cutClue": "Pastry with a filling",
+    "keepClue": "A white-fleshed fish",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "dispatch",
+    "source": "DISPATCH",
+    "cut": "SPA",
+    "keep": "DITCH",
+    "cutClue": "A place to unwind",
+    "keepClue": "A channel dug in the ground",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "portrayal",
+    "source": "PORTRAYAL",
+    "cut": "RAY",
+    "keep": "PORTAL",
+    "cutClue": "A beam of light",
+    "keepClue": "A grand entrance",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "coated",
+    "source": "COATED",
+    "cut": "ATE",
+    "keep": "COD",
+    "cutClue": "Had a meal",
+    "keepClue": "A fish often served with chips",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "tomato",
+    "source": "TOMATO",
+    "cut": "MAT",
+    "keep": "TOO",
+    "cutClue": "Wipe your shoes on it",
+    "keepClue": "Also",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "consume",
+    "source": "CONSUME",
+    "cut": "SUM",
+    "keep": "CONE",
+    "cutClue": "The result of addition",
+    "keepClue": "An ice cream holder",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "sliding",
+    "source": "SLIDING",
+    "cut": "LID",
+    "keep": "SING",
+    "cutClue": "A pot's top",
+    "keepClue": "Perform a song",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "blended",
+    "source": "BLENDED",
+    "cut": "LEND",
+    "keep": "BED",
+    "cutClue": "Let someone borrow",
+    "keepClue": "Where you tuck in",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "trainee",
+    "source": "TRAINEE",
+    "cut": "RAIN",
+    "keep": "TEE",
+    "cutClue": "Water from clouds",
+    "keepClue": "A golfer's little stand",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "rampage",
+    "source": "RAMPAGE",
+    "cut": "AMP",
+    "keep": "RAGE",
+    "cutClue": "A guitar's loudspeaker",
+    "keepClue": "Intense anger",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "cologne",
+    "source": "COLOGNE",
+    "cut": "LOG",
+    "keep": "CONE",
+    "cutClue": "A cut piece of timber",
+    "keepClue": "A pointed ice cream holder",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "spitting",
+    "source": "SPITTING",
+    "cut": "PIT",
+    "keep": "STING",
+    "cutClue": "A hole in the ground",
+    "keepClue": "A bee's painful surprise",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "keywords",
+    "source": "KEYWORDS",
+    "cut": "WORD",
+    "keep": "KEYS",
+    "cutClue": "A unit of language",
+    "keepClue": "They unlock doors",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "landmarks",
+    "source": "LANDMARKS",
+    "cut": "MARK",
+    "keep": "LANDS",
+    "cutClue": "Leave a visible trace",
+    "keepClue": "Comes down after flying",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "barracks",
+    "source": "BARRACKS",
+    "cut": "RACK",
+    "keep": "BARS",
+    "cutClue": "A frame for storage",
+    "keepClue": "Metal rods across a window",
+    "difficulty": 3,
+    "collection": "daily"
+  },
+  {
+    "id": "cupcakes",
+    "source": "CUPCAKES",
+    "cut": "CAKE",
+    "keep": "CUPS",
+    "cutClue": "A birthday centrepiece",
+    "keepClue": "Small drinking vessels",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "textbooks",
+    "source": "TEXTBOOKS",
+    "cut": "BOOK",
+    "keep": "TEXTS",
+    "cutClue": "A bound collection of pages",
+    "keepClue": "Sends written messages",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "workshops",
+    "source": "WORKSHOPS",
+    "cut": "SHOP",
+    "keep": "WORKS",
+    "cutClue": "A place to buy things",
+    "keepClue": "Functions properly",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "packages",
+    "source": "PACKAGES",
+    "cut": "AGE",
+    "keep": "PACKS",
+    "cutClue": "Years lived",
+    "keepClue": "Bundles things together",
+    "difficulty": 1,
+    "collection": "daily"
+  },
+  {
+    "id": "headlines",
+    "source": "HEADLINES",
+    "cut": "LINE",
+    "keep": "HEADS",
+    "cutClue": "A long, thin mark",
+    "keepClue": "The tops of bodies",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "networks",
+    "source": "NETWORKS",
+    "cut": "WORK",
+    "keep": "NETS",
+    "cutClue": "A task to do",
+    "keepClue": "Mesh catching devices",
+    "difficulty": 2,
+    "collection": "daily"
+  },
+  {
+    "id": "pirate",
+    "source": "PIRATE",
+    "cut": "RAT",
+    "keep": "PIE",
+    "cutClue": "A small rodent",
+    "keepClue": "A baked dish",
+    "difficulty": 1,
+    "collection": "first-cuts"
+  },
+  {
+    "id": "beggar",
+    "source": "BEGGAR",
+    "cut": "EGG",
+    "keep": "BAR",
+    "cutClue": "Breakfast in a shell",
+    "keepClue": "A counter for serving drinks",
+    "difficulty": 1,
+    "collection": "first-cuts"
+  },
+  {
+    "id": "patient",
+    "source": "PATIENT",
+    "cut": "TIE",
+    "keep": "PANT",
+    "cutClue": "A knot at your collar",
+    "keepClue": "Breathe heavily",
+    "difficulty": 1,
+    "collection": "first-cuts"
+  },
+  {
+    "id": "boldest",
+    "source": "BOLDEST",
+    "cut": "OLD",
+    "keep": "BEST",
+    "cutClue": "Having many years",
+    "keepClue": "Better than all the rest",
+    "difficulty": 1,
+    "collection": "look-again"
+  },
+  {
+    "id": "bracket",
+    "source": "BRACKET",
+    "cut": "RACK",
+    "keep": "BET",
+    "cutClue": "A frame for storage",
+    "keepClue": "A wager",
+    "difficulty": 2,
+    "collection": "look-again"
+  },
+  {
+    "id": "market",
+    "source": "MARKET",
+    "cut": "ARK",
+    "keep": "MET",
+    "cutClue": "A legendary boat",
+    "keepClue": "Encountered someone",
+    "difficulty": 2,
+    "collection": "look-again"
+  },
+  {
+    "id": "mislead",
+    "source": "MISLEAD",
+    "cut": "ISLE",
+    "keep": "MAD",
+    "cutClue": "Land surrounded by water",
+    "keepClue": "Very angry",
+    "difficulty": 2,
+    "collection": "little-tricks"
+  },
+  {
+    "id": "departed",
+    "source": "DEPARTED",
+    "cut": "PART",
+    "keep": "DEED",
+    "cutClue": "A piece of the whole",
+    "keepClue": "An action performed",
+    "difficulty": 2,
+    "collection": "little-tricks"
+  },
+  {
+    "id": "deported",
+    "source": "DEPORTED",
+    "cut": "PORT",
+    "keep": "DEED",
+    "cutClue": "A harbour",
+    "keepClue": "Something done",
+    "difficulty": 2,
+    "collection": "little-tricks"
+  },
+  {
+    "id": "decanted",
+    "source": "DECANTED",
+    "cut": "CANT",
+    "keep": "DEED",
+    "cutClue": "Insincere moral talk",
+    "keepClue": "An action",
+    "difficulty": 3,
+    "collection": "fine-cuts"
+  },
+  {
+    "id": "carton",
+    "source": "CARTON",
+    "cut": "ART",
+    "keep": "CON",
+    "cutClue": "Creative expression",
+    "keepClue": "A trick or swindle",
+    "difficulty": 2,
+    "collection": "fine-cuts"
+  },
+  {
+    "id": "before",
+    "source": "BEFORE",
+    "cut": "FOR",
+    "keep": "BEE",
+    "cutClue": "In favour of",
+    "keepClue": "A honey-making insect",
+    "difficulty": 2,
+    "collection": "fine-cuts"
+  }
+]

@@ -1,0 +1,9 @@
+SNIP is a native, offline word puzzle game. No account, payment, or backend service is required.
+
+On first launch, follow the three introduction pages to open First cuts. Select letters R through T in PIRATE, then tap Snip: RAT is removed and PIE remains. Continue with BEGGAR (remove EGG to leave BAR) and PATIENT (remove TIE to leave PANT). Drag selection and tapping endpoints are both supported.
+
+The Today tab opens the daily set of three puzzles. Daily content is selected locally from a bundled 30-day cycle of 90 puzzles, using the UTC date. Practice contains four replayable three-puzzle collections. Hints are marked with an asterisk; reveals are shown as a dash and do not count as solves.
+
+After finishing a set, Share your cuts opens the system share sheet with a spoiler-free image and text. Nothing is sent automatically. Settings includes optional local reminders, sound and haptics controls, privacy information, support email, and progress reset. Notification permission is requested only when the user enables reminders.
+
+There is no advertising, tracking, third-party SDK, in-app purchase, or user-generated content. A privacy manifest declares app-local UserDefaults access. Artwork uses genuine simulator captures of First cuts, with no daily answers exposed.

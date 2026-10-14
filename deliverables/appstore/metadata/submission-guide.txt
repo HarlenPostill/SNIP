@@ -1,0 +1,62 @@
+SNIP App Store submission guide
+Prepared 14 October 2026 for HRLN interactive.
+
+LISTING
+Copy the fields in en-AU.json into App Store Connect. The description is plain text.
+The paste-ready-en-AU folder contains individual text files with actual line breaks for direct copy/paste.
+Use Games as the primary category, with Word and Puzzle game subcategories.
+Use the standard Apple EULA and select a free price. There are no in-app purchases.
+What’s New is not a field for the first release; the supplied future-update text is optional material for a later version.
+The review contact's private name and international phone number still need to be supplied.
+The app name must be available in your App Store Connect account. Apple assigns the store ID after creating the record.
+
+VISUAL ASSETS
+Upload screenshots in numerical order. The first two form one connected composition; keep their order together.
+Preferred portrait set: screenshots/1206x2622. Alternate portrait set: screenshots/1179x2556.
+The shared 5244×2950 PNG can be used for both the product page header and search results.
+Dedicated header: 3840×1646 PNG. Dedicated search: 3840×2560 and 1920×1280 PNG.
+All final image assets are opaque 8-bit RGB PNGs.
+The 886×1920 portrait preview is optional. It uses actual screen-recorded gameplay. Choose the accompanying poster frame, or choose a frame in App Store Connect.
+The app targets iPhone only, so this package does not require an iPad screenshot set.
+
+PRIVACY AND CONTENT
+App privacy: Data Not Collected for this implementation. No tracking; no external SDKs; local progress only.
+User-initiated support email is handled outside the app by the user's mail application. Reassess disclosures if adding analytics, remote content, cloud saves, or embedded feedback forms.
+PrivacyInfo.xcprivacy declares app-specific UserDefaults access using CA92.1. No export-regulated encryption is implemented in the app.
+No advertising, chat, user-generated content, unrestricted web browser, purchases, loot boxes, simulated gambling, medical treatment, or health advice.
+The puzzle vocabulary has neutral dictionary references to a sword and a wager, with no depiction of weapons, violence, or gambling gameplay. Review the current questionnaire accurately rather than selecting a preassigned rating. Apple calculates the rating.
+Do not select Made for Kids: this app is general-audience wordplay.
+Accessibility marketing statements are limited to features implemented and tested here. Do not claim broader accessibility certifications.
+
+WEBSITE
+Publish the contents of site/ at https://snip.hrln-interactive.com/ with directory indexes enabled.
+The prepared /privacy/ and /support/ pages contain HRLN interactive's contact information and describe the implemented app.
+The files have been prepared locally. DNS, hosting, HTTPS, and the public URLs still need to be configured and verified before submission.
+The homepage intentionally has no fabricated App Store ID or download badge. Add the actual store link after Apple creates the record.
+
+BUILD AND RELEASE
+Open sol-word-test.xcodeproj and choose the shared SNIP scheme. Select your signing team and an iOS device or Any iOS Device, then Product > Archive.
+The configured team is the team's existing value from the blank project. Verify it has permission to register com.hrln-interactive.snip.
+Local builds were checked with the available Xcode 27.2 beta. Use an Apple-accepted release version of Xcode for the final upload archive.
+Review account-specific availability, content-rights, trader, and territory questions in App Store Connect.
+Distribute through Xcode Organizer to App Store Connect, attach the build, add the metadata and visual assets, then submit for review.
+Use manual release so the app goes live only after your final account review.
+This local package does not include an App Store-signed IPA or an uploaded build.
+
+APPLE REFERENCES
+Screenshot dimensions, opacity, and device requirements:
+https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications
+Header/search creative dimensions and formats:
+https://developer.apple.com/help/app-store-connect/reference/app-information/creative-assets-specifications
+Preview dimensions, duration, encoding, and poster frames:
+https://developer.apple.com/help/app-store-connect/reference/app-information/app-preview-specifications
+Metadata field limits and review contact fields:
+https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information
+Name, subtitle, privacy URL, and category fields:
+https://developer.apple.com/help/app-store-connect/reference/app-information/app-information
+Asset content and truthful capture guidance:
+https://developer.apple.com/app-store/asset-best-practices/
+App privacy disclosures:
+https://developer.apple.com/app-store/app-privacy-details/
+Age-rating questionnaire definitions:
+https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions

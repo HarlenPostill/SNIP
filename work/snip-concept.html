@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SNIP concept</title>
+<style>
+html,body{margin:0;background:transparent;color:var(--foreground,#262626);font-family:system-ui,sans-serif}
+*{box-sizing:border-box}
+#snip-concept{padding:12px 0 20px;display:flex;justify-content:center}
+#snip-concept .phone{--paper:#f3eee2;--ink:#262821;--accent:#c34127;--quiet:#626356;width:min(100%,360px);padding:22px 16px 25px;border-radius:28px;background:var(--paper);color:var(--ink);box-shadow:0 8px 28px #00000014;overflow:hidden}
+#snip-concept .micro{font:11px ui-monospace,SFMono-Regular,Menlo,monospace;text-transform:uppercase;letter-spacing:1.1px;color:var(--quiet)}
+#snip-concept .topline{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+#snip-concept .tag{display:flex;gap:7px;align-items:center}
+#snip-concept .dot{height:7px;width:7px;background:var(--accent);border-radius:50%}
+#snip-concept h1{font:italic 76px/1 Georgia,serif;letter-spacing:-6px;margin:0 0 8px}
+#snip-concept .tagline{font-size:15px;margin:0 0 25px}
+#snip-concept .clue{padding:14px 0;border-top:1px solid #26282130;display:flex;justify-content:space-between;gap:14px}
+#snip-concept .clue .micro{display:block;margin-bottom:7px}
+#snip-concept .clue strong{font-size:18px;font-weight:500}
+#snip-concept .answer{font:19px ui-monospace,SFMono-Regular,monospace;align-self:center;letter-spacing:2px;color:var(--accent);min-width:70px;text-align:right}
+#snip-concept .bench{padding:23px 0 17px;border-top:1px solid #26282130;margin-bottom:0}
+#snip-concept .letters{display:flex;justify-content:center;touch-action:none;user-select:none;width:100%;margin:10px 0 13px}
+#snip-concept .letter{min-width:44px;min-height:64px;padding:0;flex:1;font:500 34px ui-monospace,SFMono-Regular,monospace;border:0;background:transparent;color:var(--ink);border-top:1px dashed #838476;border-bottom:1px dashed #838476;position:relative}
+#snip-concept .letter.selected{background:var(--accent);color:var(--paper);border-color:var(--accent)}
+#snip-concept .letter.first{border-left:2px dashed var(--ink)}
+#snip-concept .letter.last{border-right:2px dashed var(--ink)}
+#snip-concept .letter:focus-visible,#snip-concept .action:focus-visible,#snip-concept .text-action:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+#snip-concept .instruction{font-size:12px;text-align:center;color:var(--quiet);margin:0;min-height:32px;line-height:1.5}
+#snip-concept .notice{font-size:13px;min-height:37px;margin:5px 0 10px;line-height:1.5;text-align:center}
+#snip-concept .action{width:100%;min-height:48px;border:0;border-radius:8px;color:var(--paper);background:var(--ink);font:500 15px system-ui,sans-serif}
+#snip-concept .action:disabled{opacity:.4}
+#snip-concept .foot{display:flex;justify-content:space-between;align-items:center;margin-top:14px}
+#snip-concept .text-action{border:0;background:transparent;color:var(--quiet);min-height:44px;padding:0 10px;font:12px system-ui,sans-serif}
+#snip-concept .receipt{border-top:1px dashed #838476;border-bottom:1px dashed #838476;padding:28px 8px;text-align:center;margin-top:22px;margin-bottom:22px}
+#snip-concept .receipt h2{font:italic 38px Georgia,serif;margin:0 0 18px}
+#snip-concept .scores{font:30px ui-monospace,SFMono-Regular,monospace;letter-spacing:5px;color:var(--accent);margin:20px 0}
+#snip-concept .receipt p{font-size:13px;line-height:1.7}
+#snip-concept [hidden]{display:none!important}
+@media(prefers-reduced-motion:no-preference){#snip-concept .letter{transition:background .16s,color .16s}#snip-concept .phone.is-solved .letters{animation:snip-pop .3s ease-out}@keyframes snip-pop{50%{transform:translateY(-4px)}}}
+</style>
+</head>
+<body>
+<div id="snip-concept">
+  <section class="phone" aria-label="SNIP print-studio concept">
+    <div class="topline"><span class="micro tag"><span class="dot"></span>Concept / practice</span><span class="micro" id="snip-progress">01 / 03</span></div>
+    <h1>snip.</h1>
+    <p class="tagline">One cut. Two words.</p>
+    <div id="snip-play">
+      <div class="clue"><div><span class="micro">Cut out</span><strong id="snip-cut-clue">A small rodent</strong></div><span class="answer" id="snip-cut-answer">···</span></div>
+      <div class="clue"><div><span class="micro">Leave behind</span><strong id="snip-keep-clue">A baked dish</strong></div><span class="answer" id="snip-keep-answer">···</span></div>
+      <div class="bench"><div class="letters" id="snip-letters" role="group" aria-label="Select a continuous piece of the word"></div><p class="instruction" id="snip-instruction">Drag across letters, or tap the first and last letter.</p></div>
+      <p class="notice" id="snip-notice" aria-live="polite">Find the piece that answers both clues.</p>
+      <button type="button" class="action" id="snip-submit" disabled>Snip</button>
+      <div class="foot"><span class="micro" id="snip-attempts">0 cuts</span><button type="button" class="text-action" id="snip-hint">A little hint</button></div>
+    </div>
+    <div id="snip-result" hidden>
+      <div class="receipt"><span class="micro">Practice complete</span><h2>Nicely cut.</h2><div class="scores" id="snip-scores">1 · 1 · 1</div><p id="snip-summary">Three little puzzles.<br>One satisfying finish.</p><span class="micro">Can you make the cut?</span></div>
+      <button type="button" class="action" id="snip-share">Preview share card</button><p class="notice" id="snip-share-preview" aria-live="polite"></p><button type="button" class="text-action" id="snip-replay">Play again</button>
+    </div>
+  </section>
+</div>
+<script>
+(()=>{
+const root=document.getElementById('snip-concept');
+const el=id=>root.querySelector('#snip-'+id);
+const puzzles=[
+{word:'PIRATE',start:2,end:4,cut:'RAT',keep:'PIE',cutClue:'A small rodent',keepClue:'A baked dish'},
+{word:'BEGGAR',start:1,end:3,cut:'EGG',keep:'BAR',cutClue:'Breakfast in a shell',keepClue:'A place for a drink'},
+{word:'BEWARE',start:2,end:4,cut:'WAR',keep:'BEE',cutClue:'Armed conflict',keepClue:'A buzzing pollinator'}
+];
+let round=0,a=null,b=null,anchor=null,dragging=false,ignoreClick=false,solved=false,attempts=[0,0,0],hints=[false,false,false],pickPending=false;
+function range(){return a===null||b===null?null:[Math.min(a,b),Math.max(a,b)];}
+function persist(){if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{concept:'SNIP',round:round+1},privateContent:{round,attempts,hints,solved,a,b}}).catch(()=>{});}
+function paint(){
+ const p=puzzles[round],r=range();
+ el('letters').querySelectorAll('button').forEach((button,i)=>{const selected=r&&i>=r[0]&&i<=r[1];button.classList.toggle('selected',!!selected);button.classList.toggle('first',!!r&&i===r[0]);button.classList.toggle('last',!!r&&i===r[1]);button.setAttribute('aria-pressed',String(!!selected));button.disabled=solved;});
+ el('cut-answer').textContent=r?p.word.slice(r[0],r[1]+1):'···';
+ el('keep-answer').textContent=r?p.word.slice(0,r[0])+p.word.slice(r[1]+1):'···';
+ const legal=r&&r[0]>0&&r[1]<p.word.length-1&&r[1]-r[0]+1>=3&&p.word.length-(r[1]-r[0]+1)>=3;
+ el('submit').disabled=!solved&&!legal;
+ el('submit').textContent=solved?(round===2?'Finish practice':'Next word'):'Snip';
+ el('attempts').textContent=attempts[round]+' cut'+(attempts[round]===1?'':'s')+(hints[round]?' / hint used':'');
+ root.querySelector('.phone').classList.toggle('is-solved',solved);
+}
+function loadRound(){
+ const p=puzzles[round];el('progress').textContent=String(round+1).padStart(2,'0')+' / 03';el('cut-clue').textContent=p.cutClue;el('keep-clue').textContent=p.keepClue;el('letters').replaceChildren();
+ [...p.word].forEach((c,i)=>{const button=document.createElement('button');button.type='button';button.className='letter';button.textContent=c;button.dataset.index=i;button.setAttribute('aria-label',c+', letter '+(i+1));el('letters').appendChild(button);});
+ el('notice').textContent=solved?'Both clues, one clean cut.': 'Find the piece that answers both clues.';el('hint').disabled=solved;paint();
+}
+el('letters').addEventListener('pointerdown',e=>{const button=e.target.closest('button');if(!button||solved)return;anchor=Number(button.dataset.index);dragging=false;});
+el('letters').addEventListener('pointermove',e=>{if(anchor===null||solved||!e.buttons)return;const button=document.elementFromPoint(e.clientX,e.clientY)?.closest('#snip-letters button');if(button&&Number(button.dataset.index)!==anchor){dragging=true;a=anchor;b=Number(button.dataset.index);pickPending=false;paint();}});
+window.addEventListener('pointerup',()=>{if(dragging){ignoreClick=true;persist();setTimeout(()=>ignoreClick=false,50);}anchor=null;dragging=false;});
+el('letters').addEventListener('click',e=>{const button=e.target.closest('button');if(!button||solved||ignoreClick)return;const i=Number(button.dataset.index);if(!pickPending){a=i;b=i;pickPending=true;}else{b=i;pickPending=false;}paint();persist();});
+el('submit').addEventListener('click',()=>{
+ if(solved){if(round===2){el('play').hidden=true;el('result').hidden=false;el('scores').textContent=attempts.join(' · ');el('summary').textContent='3 / 3 solved · '+(hints.some(Boolean)?'assisted':'unassisted');}else{round++;a=b=null;pickPending=false;solved=false;loadRound();}persist();return;}
+ const r=range(),p=puzzles[round];if(!r)return;attempts[round]++;
+ if(r[0]===p.start&&r[1]===p.end){solved=true;el('notice').textContent='Both clues, one clean cut.';el('hint').disabled=true;}else{el('notice').textContent='That cut doesn’t fit both clues. Try another piece.';}
+ paint();persist();
+});
+el('hint').addEventListener('click',()=>{hints[round]=true;el('notice').textContent='Your cut starts with '+puzzles[round].cut[0]+'.';paint();persist();});
+el('share').addEventListener('click',()=>{el('share-preview').textContent='SNIP · practice · '+attempts.join(' / ')+' cuts · '+(hints.some(Boolean)?'assisted':'unassisted')+'. Can you make the cut?';});
+el('replay').addEventListener('click',()=>{round=0;a=b=null;attempts=[0,0,0];hints=[false,false,false];solved=false;pickPending=false;el('result').hidden=true;el('play').hidden=false;el('share-preview').textContent='';loadRound();persist();});
+function restore(saved){const s=saved?.privateContent;if(!s||!Number.isInteger(s.round)||s.round<0||s.round>2||!Array.isArray(s.attempts)||!Array.isArray(s.hints))return;round=s.round;attempts=s.attempts.slice(0,3);hints=s.hints.slice(0,3);solved=!!s.solved;a=Number.isInteger(s.a)?s.a:null;b=Number.isInteger(s.b)?s.b:null;loadRound();}
+loadRound();restore(window.openai?.widgetState);window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState)restore(e.detail.globals.widgetState);});
+console.log('SNIP content checks',puzzles.every(p=>p.word.slice(p.start,p.end+1)===p.cut&&p.word.slice(0,p.start)+p.word.slice(p.end+1)===p.keep));
+})();
+</script>
+</body>
+</html>
